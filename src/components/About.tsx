@@ -1,4 +1,5 @@
 import { Code2, Palette, Rocket, Users } from "lucide-react";
+import profileImg from "../photo2.jpeg";
 
 const About = () => {
   const skills = [
@@ -90,7 +91,7 @@ const About = () => {
               <div className="absolute -inset-2 bg-[var(--green)] rounded opacity-20 group-hover:opacity-30 transition-opacity blur"></div>
               <div className="relative w-64 h-64 rounded overflow-hidden border-2 border-[var(--green)]">
                 <img
-                  src="src/photo2.jpeg"
+                  src={profileImg}
                   alt="Profile"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
                 />
