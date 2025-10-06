@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import resumeUrl from "../../Resume.pdf";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -54,7 +55,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="/resume.pdf"
+              href={resumeUrl}
               className="border border-[var(--green)] text-[var(--green)] px-4 py-2 rounded hover:bg-[var(--green-tint)] transition-colors font-mono text-sm"
             >
               Resume
@@ -89,7 +90,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="/resume.pdf"
+              href={resumeUrl}
               className="block border border-[var(--green)] text-[var(--green)] px-4 py-2 rounded hover:bg-[var(--green-tint)] transition-colors font-mono text-sm text-center"
             >
               Resume
