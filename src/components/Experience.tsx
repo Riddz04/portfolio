@@ -21,8 +21,8 @@ const Experience = () => {
       duration: "Nov 2025 - Present",
       url: "currently in pre-production phase",
       responsibilities: [
-        "Developing a production-grade Next.js application with end-to-end functionality and scalable architecture."
-        "Integrating Supabase backend services for authentication, data persistence, and real-time updates."
+        "Developing a production-grade Next.js application with end-to-end functionality and scalable architecture.",
+        "Integrating Supabase backend services for authentication, data persistence, and real-time updates.",
         "Building and deploying the product MVP, adding payment workflows, and migrating legacy codebases for performance.",
       ],
     },
