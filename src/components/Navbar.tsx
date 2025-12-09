@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import resumeUrl from "../../Resume.pdf";
+import resumeUrl from "../../Riddhi_Dhawan.pdf";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
