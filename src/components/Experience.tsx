@@ -16,6 +16,17 @@ const Experience = () => {
       ],
     },
     {
+      company: "BlueStock Fintech",
+      position: "SDE Intern",
+      duration: "Nov 2025 - Dec 2025",
+      url: "https://bluestock.in/",
+      responsibilities: [
+        "Worked on developing and improving core product features for Bluestock’s fintech platform.",
+        "Collaborated with the engineering team to build scalable APIs and optimize backend performance.",
+        "Contributed to frontend components, ensuring a smooth user experience and reliable data handling across the application.",
+      ],
+    },
+    {
       company: "Stealth AI Startup",
       position: "Full-Stack Developer",
       duration: "Nov 2025 - Present",
