@@ -5,14 +5,14 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "Defence Research and Development Organisation (DRDO)",
-      position: "Summer Research Intern",
-      duration: "June 2025 - July 2025",
-      url: "https://drdo.res.in/drdo/",
+      company: "Stealth AI Startup",
+      position: "Full-Stack Developer",
+      duration: "Nov 2025 - Present",
+      url: "currently in pre-production phase",
       responsibilities: [
-        "Explored the electrical-software interface via semiconductor simulations.",
-        "Conducted Monte Carlo analysis on MCT photodiodes using statistical models.",
-        "Converted C functions to MATLAB and built a simulation dashboard.",
+        "Developing a production-grade Next.js application with end-to-end functionality and scalable architecture.",
+        "Integrating Supabase backend services for authentication, data persistence, and real-time updates.",
+        "Building and deploying the product MVP, adding payment workflows, and migrating legacy codebases for performance.",
       ],
     },
     {
@@ -27,14 +27,14 @@ const Experience = () => {
       ],
     },
     {
-      company: "Stealth AI Startup",
-      position: "Full-Stack Developer",
-      duration: "Nov 2025 - Present",
-      url: "currently in pre-production phase",
+      company: "Defence Research and Development Organisation (DRDO)",
+      position: "Summer Research Intern",
+      duration: "June 2025 - July 2025",
+      url: "https://drdo.res.in/drdo/",
       responsibilities: [
-        "Developing a production-grade Next.js application with end-to-end functionality and scalable architecture.",
-        "Integrating Supabase backend services for authentication, data persistence, and real-time updates.",
-        "Building and deploying the product MVP, adding payment workflows, and migrating legacy codebases for performance.",
+        "Explored the electrical-software interface via semiconductor simulations.",
+        "Conducted Monte Carlo analysis on MCT photodiodes using statistical models.",
+        "Converted C functions to MATLAB and built a simulation dashboard.",
       ],
     },
   ];
