@@ -3,22 +3,23 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 const Projects = () => {
   const featuredProjects = [
     {
-      title: "Captionize",
+      title: "Dev.Assist",
       description:
-        "A web app that simplifies adding accurate, timestamped captions to media files using AI-powered transcription and editing tools",
+        "A modern web application that helps developers discover, organize, and curate the best resources from across the web, tailored to their specific project needs.",
       video:
-        "https://res.cloudinary.com/dfyuhslyv/video/upload/v1747576801/xyngwlagmolycr5x3osv.mp4",
+        "https://player.cloudinary.com/embed/?cloud_name=dfyuhslyv&public_id=Untitled_design_kknafg",
       tags: [
-        "Next.js",
-        "Node.js",
-        "AWS-S3",
-        "WhisperX",
-        "FFMPEG",
+        "React18",
+        "TypeScript",
+        "Vite",
+        "Radix UI",
+        "Firebase",
+        "React Router",
         "Tailwind CSS",
         "Vercel",
       ],
-      github: "https://github.com/Riddz04/CaptionizeIt",
-      external: "https://captionizeit.vercel.app/",
+      github: "https://github.com/Riddz04/dev.assist",
+      external: "https://dev-assist-green.vercel.app/",
     },
     {
       title: "Career Compass",
@@ -33,6 +34,22 @@ const Projects = () => {
   ];
 
   const otherProjects = [
+    {
+      title: "Captionize",
+      description:
+        "A web app that simplifies adding accurate, timestamped captions to media files using AI-powered transcription and editing tools",
+      tags: [
+        "Next.js",
+        "Node.js",
+        "AWS-S3",
+        "WhisperX",
+        "FFMPEG",
+        "Tailwind CSS",
+        "Vercel",
+      ],
+      github: "https://github.com/Riddz04/CaptionizeIt",
+      external: "https://captionizeit.vercel.app/",
+    },
     {
       title: "AI-Podcast Generator",
       description:
