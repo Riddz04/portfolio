@@ -7,7 +7,7 @@ const Projects = () => {
       description:
         "A modern web application that helps developers discover, organize, and curate the best resources from across the web, tailored to their specific project needs.",
       video:
-        "https://player.cloudinary.com/embed/?cloud_name=dfyuhslyv&public_id=Untitled_design_kknafg",
+        "https://res.cloudinary.com/dfyuhslyv/video/upload/v1772718463/Untitled_design_kknafg.mp4",
       tags: [
         "React18",
         "TypeScript",
