@@ -15,6 +15,10 @@ const About = () => {
     "PostgreSQL",
     "Tailwind CSS",
     "Git",
+    "Unit Testing",
+    "GTM",
+    "Google Analytics",
+    "Microservices",
   ];
 
   const highlights = [
