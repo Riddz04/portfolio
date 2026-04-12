@@ -5,10 +5,10 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "Stealth AI Startup",
-      position: "Full-Stack Developer",
+      company: "Pawgeny",
+      position: "Founding Developer",
       duration: "Nov 2025 - Present",
-      url: "currently in pre-production phase",
+      url: "https://pawgeny.com/",
       responsibilities: [
         "Developing a production-grade Next.js application with end-to-end functionality and scalable architecture.",
         "Integrating Supabase backend services for authentication, data persistence, and real-time updates.",
